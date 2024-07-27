@@ -10,4 +10,4 @@ function to_upp_first(chn) {
 
     return arr.join(" ");
 }
-document.getElementById("demo0").innerHTML ="Premier en majuscule : "+to_upp_first("Je suis sage à ma place");
+//document.getElementById("demo0").innerHTML ="Premier en majuscule : "+to_upp_first("Je suis sage à ma place");

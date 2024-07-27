@@ -6,14 +6,13 @@ function est_nbre_premier(nb) {
     if(nb==2) return true;
     let prm=true; 
     for(i=2;i<nb;i++){
-        var rs=Math.floor(nb/i);
-        if((rs*i)==nb) prm=false; 
+        if((nb%i)==0)prm=false;
     }
     return prm;
 }
 /*
 let message="";
-let val=2;
+let val=10;
 if(est_nbre_premier(val)) message=val+" est un nombre premier";
 else message=val+" n'est pas un nombre premier";
-document.getElementById("demo0").innerHTML =message;*/
+document.getElementById("demo0").innerHTML =message;/*
