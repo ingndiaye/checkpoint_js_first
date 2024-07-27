@@ -15,4 +15,4 @@ let message="";
 let val=10;
 if(est_nbre_premier(val)) message=val+" est un nombre premier";
 else message=val+" n'est pas un nombre premier";
-document.getElementById("demo0").innerHTML =message;/*
+document.getElementById("demo0").innerHTML =message;*/
